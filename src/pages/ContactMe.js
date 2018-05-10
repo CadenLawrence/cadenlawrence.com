@@ -6,9 +6,8 @@ import $ from "jquery";
 
 export default class ContactMe extends React.Component {
 	componentDidMount = () =>{
-			$("body").css("display", "none");
-	
-			$("body").fadeIn(1500);
+		$("body").css("display", "none");
+		$("body").fadeIn(1500);
  
 	}
 	render() {
@@ -73,7 +72,7 @@ export default class ContactMe extends React.Component {
 									<input name="compant" type="text" id="company" size="30" placeholder="Company" />
 									<br />
 								</fieldset>
-      						</div>
+						</div>
 							<div className="col-md-5">
 								<fieldset>
 								<textarea name="message" cols="40" rows="20" id="message" placeholder="Message"></textarea>
@@ -83,7 +82,7 @@ export default class ContactMe extends React.Component {
 								<fieldset>
 								<button type="submit" className="btn btn-lg" id="submit" value="Submit">Send Message</button>
 								</fieldset>
-      						</div>
+						</div>
 						</form>
 					</div>
 				</div>
