@@ -35,7 +35,7 @@ function PublicRoute ({component: Component, authed, ...rest}) {
   )
 }
 
-export default class App extends React.Component {
+class App extends React.Component {
   state = {
     authed: false,
     loading: true,
@@ -120,5 +120,6 @@ export default class App extends React.Component {
     );
   }
 }
+export default App;
 const div = document.createElement('app');
 ReactDOM.render(<App />, app);

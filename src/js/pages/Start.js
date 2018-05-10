@@ -12,7 +12,7 @@ export default class Start extends React.Component {
 						<h1 class="header1">Front-End Developer and Brown's fanatic</h1>
 					</div>
 					<div class="cols-xs-12">
-						<Link to="/Home"><button class="buttonghost">View Portfolio</button></Link>
+						<Link to="/Home"><button class="buttonghost" >View Portfolio</button></Link>
 					</div>
 				</div>
 			</div>		
